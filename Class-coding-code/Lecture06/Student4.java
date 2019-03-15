@@ -1,7 +1,9 @@
 //Java program to initialize the values from one object to another
 class Student4{
+
     int id;
     String name;
+
     //constructor to initialize integer and string
     Student4(int i,String n){
         id = i;
@@ -9,10 +11,11 @@ class Student4{
     }
 
     //constructor to initialize another object
-    Student4(Student4 s){
-        id = s.id;
-        name =s.name;
+    Student4(Student4 studentTocopy){
+        id = studentTocopy.id;
+        name =studentTocopy.name;
     }
+
     void display(){
         System.out.println(id+" "+name);
     }

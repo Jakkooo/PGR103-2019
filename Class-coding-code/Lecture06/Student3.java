@@ -3,11 +3,13 @@ class Student3{
     int id;
     String name;
     int age;
+
     //creating two arguments constructor
     Student3(int i,String n){
         id = i;
         name = n;
     }
+
     //creating three arguments constructor
     Student3(int i,String n,int a){
         id = i;

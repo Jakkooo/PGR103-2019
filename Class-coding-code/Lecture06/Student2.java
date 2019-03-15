@@ -14,6 +14,7 @@ class Student2{
         //creating objects and passing values
         Student2 s1 = new Student2(111,"Ole");
         Student2 s2 = new Student2(222,"Mikkael");
+        Student2 s3 = new Student2(222,"Ole");
         //calling method to display the values of object
         s1.display();
         s2.display();
