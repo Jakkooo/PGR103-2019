@@ -11,4 +11,4 @@ Repositories from students with their daily challenge solutions:
 - https://github.com/SeventhDisaster/JavaProgramming 
 
 Chat sheet for PGR-103
-- https://github.com/Cytlan/pgr103/blob/master/cheet_sheet.md
+- https://github.com/Cytlan/pgr103/blob/master/cheat_sheet.md
