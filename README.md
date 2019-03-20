@@ -9,6 +9,7 @@ Discord link:
 Repositories from students with their daily challenge solutions:
 - https://github.com/Cytlan/pgr103
 - https://github.com/SeventhDisaster/JavaProgramming 
+- https://github.com/RoberCop/PGR103/
 
 Chat sheet for PGR-103
 - https://github.com/Cytlan/pgr103/blob/master/cheat_sheet.md
