@@ -6,10 +6,11 @@ Reusing the code for other purposes than this needs to be approved by individual
 Discord link:
 - see Canvas
 
-Repositories from students with their daily challenge solutions:
+Repositories from students with their daily challenge solutions and other relevant code. Everything is reviewed and correct:
 - https://github.com/Cytlan/pgr103
 - https://github.com/SeventhDisaster/JavaProgramming 
 - https://github.com/RoberCop/PGR103/
+- https://github.com/guberArmin/OOP
 
 Cheat sheet for PGR-103
 - https://github.com/Cytlan/pgr103/blob/master/cheat_sheet.md
