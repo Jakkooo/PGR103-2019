@@ -2,7 +2,6 @@
 
 public class Carpenter extends Worker {
 
-
 private double lumberCosts;
 
 //Constructor
@@ -12,7 +11,7 @@ public Carpenter(String firstname, String lastName, Address address, int idNumbe
 
 //methods
 public void setLumberCosts(double amount){
-        lumberCosts = amount;
+    lumberCosts = amount;
 }
 
 public String doWork(){ //#C
@@ -25,8 +24,8 @@ public String toString() {
     return "Carpenter: "+super.toString() + "\n" + doWork();
     }
 
-    public double calculatePay(){
-        return hoursWorked * hourlyRate + lumberCosts;
+public double calculatePay(){
+    return hoursWorked * hourlyRate + lumberCosts;
         }
 
 

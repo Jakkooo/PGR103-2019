@@ -24,8 +24,7 @@ public class Project implements Comparable {
         }
 
 
-        //Constructor 2
-
+    //Constructor 2
     public Project(String projectName, String costumer, Address projectAddress){
         this.projectAddress = projectAddress;
         this.projectName = projectName;
@@ -46,7 +45,7 @@ public class Project implements Comparable {
     }
 
     public void setOverhead(double overhead){
-         this.overheadPercent = overhead;
+        this.overheadPercent = overhead;
          }
 
     public void addWorkers(ArrayList<Worker> workers){
@@ -55,7 +54,6 @@ public class Project implements Comparable {
 
     //calculate cost of the project
     public double calculateProjectCost(){
-
         double totalCost = 0;
 
         for(Worker w:workers) {
@@ -63,7 +61,7 @@ public class Project implements Comparable {
              }
          overheadAmount = overheadPercent * totalCost;
          totalCost += overheadAmount;
-         return totalCost; //#G
+         return totalCost;
      }
 
     @Override

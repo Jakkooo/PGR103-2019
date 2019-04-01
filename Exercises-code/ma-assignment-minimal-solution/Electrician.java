@@ -11,19 +11,20 @@ public Electrician(String firstname, String lastName, Address address, int idNum
 
 //Methods
 public void setWiringCosts(double amount){
-        wiringCost = amount;
+    this.wiringCost = amount;
          }
 
 //Overridden from worker
 public String doWork(){
-   return "Install electrical components";
+    return "Install electrical components";
         }
 
         @Override
 public String toString() {
-        return "Electrician: "+super.toString() + "\n" + doWork();
+    return "Electrician: "+super.toString() + "\n" + doWork();
         }
+
 public double calculatePay(){
-        return hoursWorked * hourlyRate + wiringCost;
+    return hoursWorked * hourlyRate + wiringCost; //calculate pay for the electricioan, including wiring cost
         }
 }

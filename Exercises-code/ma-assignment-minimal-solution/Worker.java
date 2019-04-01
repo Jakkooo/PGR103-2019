@@ -1,4 +1,7 @@
+//Worker class
+
 public class Worker {
+
 
 //instace variables
 public String firstName, lastName;
@@ -7,11 +10,7 @@ public int idNumber;
 public double hoursWorked;
 public double hourlyRate;
 
-
-
-
-//constructor
-
+//constructors
 //Default constructor
 public Worker(){
 
@@ -32,19 +31,20 @@ public String doWork(){
 }
 
 public void setHoursWorked(double hoursWorked) {
-        this.hoursWorked = hoursWorked;
+    this.hoursWorked = hoursWorked;
          }
 
 public void setHourlyRate(double hourlyRate) {
-         this.hourlyRate = hourlyRate;
+    this.hourlyRate = hourlyRate;
          }
 
 public double calculatePay() {
-     return hoursWorked * hourlyRate;
+    return hoursWorked * hourlyRate; //the base calculate pay without the additional cost for each profession
          }
 
          @Override
-public String toString() { //#B
-        return firstName + " " + lastName + " \nCompensation: $"+calculatePay();
+public String toString() {
+    return firstName + " " + lastName + " \nCompensation: $"+calculatePay();
          }
+
 }
