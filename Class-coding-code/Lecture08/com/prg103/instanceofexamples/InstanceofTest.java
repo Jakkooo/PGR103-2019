@@ -1,9 +1,11 @@
 package com.prg103.instanceofexamples;
 
 interface Printable{}
+
 class A implements Printable{
     public void a(){System.out.println("a method");}
 }
+
 class B implements Printable{
     public void b(){System.out.println("b method");}
 }

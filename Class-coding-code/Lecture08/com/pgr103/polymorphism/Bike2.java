@@ -1,6 +1,4 @@
 package com.pgr103.polymorphism;
-
-
 //Two classes have a data member speedlimit.
 // We are accessing the data member by the reference
 // variable of the parent class which refers to the subclass object.

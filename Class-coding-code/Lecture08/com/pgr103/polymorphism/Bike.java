@@ -1,4 +1,8 @@
 package com.pgr103.polymorphism;
+//An example of two classes Bike and Splendor.
+// Splendor class extends Bike class and overrides its run() method.
+// We are calling the run method by the reference variable of the parent class
+
 
 class Bike{
     void run(){System.out.println("running");}
