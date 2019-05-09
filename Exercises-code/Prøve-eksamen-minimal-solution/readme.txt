@@ -1,0 +1,1 @@
+Both solutions would give full points on the exam. 
